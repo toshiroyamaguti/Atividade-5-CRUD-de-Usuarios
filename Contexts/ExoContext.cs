@@ -21,6 +21,7 @@ namespace Exo.WebApi.Contexts
              }
         }
         public DbSet<Projeto> Projetos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }
 
